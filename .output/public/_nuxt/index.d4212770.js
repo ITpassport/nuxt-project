@@ -1,0 +1,1 @@
+import{P as e,o,K as s,L as t}from"./entry.ea9112ad.js";const c={},n={class:"container"},r=t("h1",null,"Hello World",-1),_=[r];function a(d,l){return o(),s("div",n,_)}const f=e(c,[["render",a]]);export{f as default};

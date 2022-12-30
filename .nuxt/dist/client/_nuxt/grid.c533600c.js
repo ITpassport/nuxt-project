@@ -1,0 +1,1 @@
+import{P as o,o as c,K as e,L as s}from"./entry.ea9112ad.js";const t={},n={class:"container"},a=s("div",{class:"row"},[s("div",{class:"col"}," Column "),s("div",{class:"col"}," Column "),s("div",{class:"col"}," Column ")],-1),l=[a];function r(_,d){return c(),e("div",n,l)}const m=o(t,[["render",r]]);export{m as default};
