@@ -1,3 +1,0 @@
-# こんにちは！Content!
-test
-test
