@@ -9,7 +9,7 @@
  <h4>タージ・マハル</h4>
     </div>
     <img src="@/assets/ta-zimaharu.jpg" class="img-fluid">
-    <a href="/ta-zimaharu">タージマハルの魅力をご紹介</a>
+    <NuxtLink to="/ta-zimaharu">タージマハルの魅力をご紹介</a>
 
     <div class="card mb-3 mx-auto">
    <h4>自由の女神</h4>
