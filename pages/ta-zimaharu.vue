@@ -4,7 +4,7 @@
 
     <div class="container mb-5">
     <h2>タージ・マハルの建設とその後</h2>
-    <img src="img/ta-zimaharu.jpg" class="img-fluid" alt="ta-zimaharu">
+    <img src="@/assets/ta-zimaharu.jpg" class="img-fluid" alt="ta-zimaharu">
     <p class="fs-4">ムガル帝国第5代皇帝シャー・ジャハーンは、妃のムムターズ・マハルを心から深く愛していました。戦場にまで伴うほどでしたが、1631年、ムムターズは第14子を出産した際に亡くなってしまいます。皇帝の悲しみは深く、最愛の妃を弔うために、最も美しい墓廟を建てることを決めたのでした。
 
 こうして、1632年にタージ・マハルの建設に着工します。皇帝は常時2万人の労働力を投入し、22年の歳月をかけて、ついに1653年にこれを完成させました。

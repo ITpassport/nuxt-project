@@ -3,7 +3,7 @@
         <h1>自由の女神</h1>
         <div class="container mb-5">
         <h2>アメリカの象徴「自由の女神像」</h2>
-        <img src="img/free-megami.webp" class="img-fluid" alt="ziyuu-megami">
+        <img src="@/assets/free-megami.webp" class="img-fluid" alt="ziyuu-megami">
         <p class="fs-4">自由の女神像は、アメリカ独立100周年を記念しフランス人のエドワール・ド・ラブライエが建設を提案し、寄付を募集しました。設計にはフレデリク・バルトルディとギュスターヴ・エッフェルが関わりました。
 
 女神像はローマ神話の自由の女神リーベルタースをモチーフにしていますが、その顔のモデルはドラクロワの「民衆を導く自由の女神」とバルトルディの母親です。
