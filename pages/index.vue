@@ -56,9 +56,12 @@
      </div>
      <img src="@/assets/vatican_3.jpg" class="img-fluid">
      <NuxtLink to="/batikansikoku">バチカン市国の魅力を紹介します</NuxtLink>
-
-
-     <footer></footer>
+    
+     <footer class="footer">
+  <div class="container">
+    <p class="text-muted">tomatoma</p>
+  </div>
+</footer>
    </div>
   </div>
 </template>
@@ -66,4 +69,5 @@
 
 
 <style>
+
 </style>
