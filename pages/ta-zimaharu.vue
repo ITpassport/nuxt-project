@@ -15,5 +15,17 @@
 以後、皇帝は窓からタージ・マハルを眺め、愛する妃のことを思いながら生を終えたのです。
 </p>
     </div>
+    　　  <a @click="onClickButton">ホームに戻る</a>
     </div>
 </template>
+
+<script>
+export default {
+methods: {
+    onClickButton(){
+    this.$router.push('/');
+    }
+}
+}
+</script>
+

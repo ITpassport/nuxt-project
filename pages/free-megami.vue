@@ -14,5 +14,16 @@
 </p>
 
         </div>
+        <a @click="onClickButton">ホームに戻る</a>
         </div>
     </template>
+
+<script>
+export default {
+methods: {
+    onClickButton(){
+    this.$router.push('/');
+    }
+}
+}
+</script>

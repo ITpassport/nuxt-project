@@ -9,16 +9,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/ta-zimaharu">タージマハル</a>
+          <NuxtLink class="nav-link active" aria-current="page" href="/ta-zimaharu">タージマハル</NuxtLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/free-megami">自由の女神</a>
+          <NuxtLink class="nav-link" href="/free-megami">自由の女神</NuxtLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/kerun-daiseido">ケルン大聖堂</a>
+          <NuxtLink class="nav-link" href="/kerun-daiseido">ケルン大聖堂</NuxtLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/batikansikoku" tabindex="-1" aria-disabled="true">バチカン市国</a>
+          <NuxtLink class="nav-link" href="/batikansikoku" tabindex="-1" aria-disabled="true">バチカン市国</NuxtLink>
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" href="/index">ホームに戻る</NuxtLink>
         </li>
       </ul>
     </div>
@@ -67,7 +70,5 @@
 </template>
 
 
-
 <style>
-
 </style>
