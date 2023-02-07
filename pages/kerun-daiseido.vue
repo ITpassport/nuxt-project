@@ -20,7 +20,7 @@
         <NuxtLink class="nav-link" href="/batikansikoku" tabindex="-1" aria-disabled="true">バチカン市国</NuxtLink>
         </li>
         <li class="nav-item">
-        <NuxtLink class="nav-link" href="/index">ホームに戻る</NuxtLink>
+        <NuxtLink class="nav-link" href="/">ホームに戻る</NuxtLink>
         </li>
     </ul>
     </div>
