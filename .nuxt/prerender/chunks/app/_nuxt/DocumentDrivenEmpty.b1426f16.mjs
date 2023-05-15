@@ -1,4 +1,4 @@
-import { defineComponent, h, useSSRContext } from 'file:///workspaces/restrartnuixt3/node_modules/vue/index.mjs';
+import { defineComponent, h, useSSRContext } from 'file:///workspaces/nuxt-project/node_modules/vue/index.mjs';
 
 const _sfc_main = defineComponent({
   name: "DocumentDrivenEmpty",

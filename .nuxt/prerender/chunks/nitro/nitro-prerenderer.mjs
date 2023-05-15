@@ -1,45 +1,45 @@
-import 'file:///workspaces/restrartnuixt3/node_modules/node-fetch-native/dist/polyfill.mjs';
-import { eventHandler, setHeaders, sendRedirect, defineEventHandler, handleCacheHeaders, createEvent, getRequestHeader, getRequestHeaders, setResponseHeader, getQuery, getCookie, createError, createApp, createRouter as createRouter$1, lazyEventHandler, toNodeListener } from 'file:///workspaces/restrartnuixt3/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///workspaces/restrartnuixt3/node_modules/ohmyfetch/dist/node.mjs';
-import destr from 'file:///workspaces/restrartnuixt3/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///workspaces/restrartnuixt3/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///workspaces/restrartnuixt3/node_modules/hookable/dist/index.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///workspaces/restrartnuixt3/node_modules/scule/dist/index.mjs';
-import { hash } from 'file:///workspaces/restrartnuixt3/node_modules/ohash/dist/index.mjs';
-import { parseURL, withQuery, withLeadingSlash, withoutTrailingSlash, isRelative, joinURL } from 'file:///workspaces/restrartnuixt3/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///workspaces/restrartnuixt3/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///workspaces/restrartnuixt3/node_modules/unstorage/dist/drivers/fs.mjs';
-import defu from 'file:///workspaces/restrartnuixt3/node_modules/defu/dist/defu.mjs';
-import { toRouteMatcher, createRouter } from 'file:///workspaces/restrartnuixt3/node_modules/radix3/dist/index.mjs';
-import { extname, join } from 'file:///workspaces/restrartnuixt3/node_modules/pathe/dist/index.mjs';
-import { unified } from 'file:///workspaces/restrartnuixt3/node_modules/unified/index.js';
-import { toString } from 'file:///workspaces/restrartnuixt3/node_modules/mdast-util-to-string/index.js';
-import { preprocess } from 'file:///workspaces/restrartnuixt3/node_modules/micromark/lib/preprocess.js';
-import { postprocess } from 'file:///workspaces/restrartnuixt3/node_modules/micromark/lib/postprocess.js';
-import { stringifyPosition } from 'file:///workspaces/restrartnuixt3/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file:///workspaces/restrartnuixt3/node_modules/micromark-util-character/index.js';
-import { push, splice } from 'file:///workspaces/restrartnuixt3/node_modules/micromark-util-chunked/index.js';
-import { resolveAll } from 'file:///workspaces/restrartnuixt3/node_modules/micromark-util-resolve-all/index.js';
-import remarkEmoji from 'file:///workspaces/restrartnuixt3/node_modules/remark-emoji/index.js';
-import rehypeSlug from 'file:///workspaces/restrartnuixt3/node_modules/rehype-slug/index.js';
-import remarkSqueezeParagraphs from 'file:///workspaces/restrartnuixt3/node_modules/remark-squeeze-paragraphs/index.js';
-import rehypeExternalLinks from 'file:///workspaces/restrartnuixt3/node_modules/rehype-external-links/index.js';
-import remarkGfm from 'file:///workspaces/restrartnuixt3/node_modules/remark-gfm/index.js';
-import rehypeSortAttributeValues from 'file:///workspaces/restrartnuixt3/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file:///workspaces/restrartnuixt3/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file:///workspaces/restrartnuixt3/node_modules/rehype-raw/index.js';
-import remarkMDC, { parseFrontMatter } from 'file:///workspaces/restrartnuixt3/node_modules/remark-mdc/dist/index.mjs';
-import remarkParse from 'file:///workspaces/restrartnuixt3/node_modules/remark-parse/index.js';
-import remark2rehype from 'file:///workspaces/restrartnuixt3/node_modules/remark-rehype/index.js';
-import { all } from 'file:///workspaces/restrartnuixt3/node_modules/mdast-util-to-hast/index.js';
-import { detab } from 'file:///workspaces/restrartnuixt3/node_modules/detab/index.js';
-import { u } from 'file:///workspaces/restrartnuixt3/node_modules/unist-builder/index.js';
-import { encode } from 'file:///workspaces/restrartnuixt3/node_modules/mdurl/index.js';
-import slugify from 'file:///workspaces/restrartnuixt3/node_modules/slugify/slugify.js';
-import { position } from 'file:///workspaces/restrartnuixt3/node_modules/unist-util-position/index.js';
-import htmlTags from 'file:///workspaces/restrartnuixt3/node_modules/html-tags/index.js';
+import 'file:///workspaces/nuxt-project/node_modules/node-fetch-native/dist/polyfill.mjs';
+import { eventHandler, setHeaders, sendRedirect, defineEventHandler, handleCacheHeaders, createEvent, getRequestHeader, getRequestHeaders, setResponseHeader, getQuery, getCookie, createError, createApp, createRouter as createRouter$1, lazyEventHandler, toNodeListener } from 'file:///workspaces/nuxt-project/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///workspaces/nuxt-project/node_modules/ohmyfetch/dist/node.mjs';
+import destr from 'file:///workspaces/nuxt-project/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///workspaces/nuxt-project/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///workspaces/nuxt-project/node_modules/hookable/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///workspaces/nuxt-project/node_modules/scule/dist/index.mjs';
+import { hash } from 'file:///workspaces/nuxt-project/node_modules/ohash/dist/index.mjs';
+import { parseURL, withQuery, withLeadingSlash, withoutTrailingSlash, isRelative, joinURL } from 'file:///workspaces/nuxt-project/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///workspaces/nuxt-project/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///workspaces/nuxt-project/node_modules/unstorage/dist/drivers/fs.mjs';
+import defu from 'file:///workspaces/nuxt-project/node_modules/defu/dist/defu.mjs';
+import { toRouteMatcher, createRouter } from 'file:///workspaces/nuxt-project/node_modules/radix3/dist/index.mjs';
+import { extname, join } from 'file:///workspaces/nuxt-project/node_modules/pathe/dist/index.mjs';
+import { unified } from 'file:///workspaces/nuxt-project/node_modules/unified/index.js';
+import { toString } from 'file:///workspaces/nuxt-project/node_modules/mdast-util-to-string/index.js';
+import { preprocess } from 'file:///workspaces/nuxt-project/node_modules/micromark/lib/preprocess.js';
+import { postprocess } from 'file:///workspaces/nuxt-project/node_modules/micromark/lib/postprocess.js';
+import { stringifyPosition } from 'file:///workspaces/nuxt-project/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file:///workspaces/nuxt-project/node_modules/micromark-util-character/index.js';
+import { push, splice } from 'file:///workspaces/nuxt-project/node_modules/micromark-util-chunked/index.js';
+import { resolveAll } from 'file:///workspaces/nuxt-project/node_modules/micromark-util-resolve-all/index.js';
+import remarkEmoji from 'file:///workspaces/nuxt-project/node_modules/remark-emoji/index.js';
+import rehypeSlug from 'file:///workspaces/nuxt-project/node_modules/rehype-slug/index.js';
+import remarkSqueezeParagraphs from 'file:///workspaces/nuxt-project/node_modules/remark-squeeze-paragraphs/index.js';
+import rehypeExternalLinks from 'file:///workspaces/nuxt-project/node_modules/rehype-external-links/index.js';
+import remarkGfm from 'file:///workspaces/nuxt-project/node_modules/remark-gfm/index.js';
+import rehypeSortAttributeValues from 'file:///workspaces/nuxt-project/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file:///workspaces/nuxt-project/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file:///workspaces/nuxt-project/node_modules/rehype-raw/index.js';
+import remarkMDC, { parseFrontMatter } from 'file:///workspaces/nuxt-project/node_modules/remark-mdc/dist/index.mjs';
+import remarkParse from 'file:///workspaces/nuxt-project/node_modules/remark-parse/index.js';
+import remark2rehype from 'file:///workspaces/nuxt-project/node_modules/remark-rehype/index.js';
+import { all } from 'file:///workspaces/nuxt-project/node_modules/mdast-util-to-hast/index.js';
+import { detab } from 'file:///workspaces/nuxt-project/node_modules/detab/index.js';
+import { u } from 'file:///workspaces/nuxt-project/node_modules/unist-builder/index.js';
+import { encode } from 'file:///workspaces/nuxt-project/node_modules/mdurl/index.js';
+import slugify from 'file:///workspaces/nuxt-project/node_modules/slugify/slugify.js';
+import { position } from 'file:///workspaces/nuxt-project/node_modules/unist-util-position/index.js';
+import htmlTags from 'file:///workspaces/nuxt-project/node_modules/html-tags/index.js';
 
-const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routeRules":{"/__nuxt_error":{"cache":false}},"envPrefix":"NUXT_"},"public":{"content":{"clientDB":{"isSPA":false,"integrity":1672370970550},"navigation":{"fields":[]},"base":"_content","tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":false,"wsUrl":"","documentDriven":false,"anchorLinks":{"depth":4,"exclude":[1]}}},"content":{"cacheVersion":2,"cacheIntegrity":"kc4UzpZUjI","transformers":[],"base":"_content","watch":{"ws":{"port":4000,"hostname":"localhost","showURL":false}},"sources":{},"ignores":["\\.","-"],"locales":[],"highlight":false,"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"anchorLinks":{"depth":4,"exclude":[1]},"remarkPlugins":{},"rehypePlugins":{}},"yaml":{},"csv":{"delimeter":",","json":true},"navigation":{"fields":[]},"documentDriven":false,"experimental":{"clientDB":false}}};
+const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routeRules":{"/__nuxt_error":{"cache":false}},"envPrefix":"NUXT_"},"public":{"content":{"clientDB":{"isSPA":false,"integrity":1684125529069},"navigation":{"fields":[]},"base":"_content","tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":false,"wsUrl":"","documentDriven":false,"anchorLinks":{"depth":4,"exclude":[1]}}},"content":{"cacheVersion":2,"cacheIntegrity":"kc4UzpZUjI","transformers":[],"base":"_content","watch":{"ws":{"port":4000,"hostname":"localhost","showURL":false}},"sources":{},"ignores":["\\.","-"],"locales":[],"highlight":false,"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"anchorLinks":{"depth":4,"exclude":[1]},"remarkPlugins":{},"rehypePlugins":{}},"yaml":{},"csv":{"delimeter":",","json":true},"navigation":{"fields":[]},"documentDriven":false,"experimental":{"clientDB":false}}};
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _runtimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";
 const getEnv = (key) => {
@@ -96,7 +96,7 @@ const timingMiddleware = eventHandler((event) => {
   }.bind(event.res);
 });
 
-const serverAssets = [{"baseName":"server","dir":"/workspaces/restrartnuixt3/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/workspaces/nuxt-project/server/assets"}];
 
 const assets = createStorage();
 
@@ -110,12 +110,12 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/workspaces/restrartnuixt3/content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/restrartnuixt3/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/restrartnuixt3","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/restrartnuixt3/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/restrartnuixt3/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/restrartnuixt3/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/workspaces/nuxt-project/content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/nuxt-project/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/nuxt-project","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/nuxt-project/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/nuxt-project/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"/workspaces/nuxt-project/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 const config = useRuntimeConfig();
 const _routeRulesMatcher = toRouteMatcher(createRouter({ routes: config.nitro.routeRules }));
@@ -2004,7 +2004,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file:///workspaces/restrartnuixt3/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file:///workspaces/nuxt-project/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }
@@ -2296,7 +2296,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _RywcRv = defineEventHandler(async (event) => {
+const _Obvh90 = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   const contents = await serverQueryContent(event, query).find();
   if (query.first) {
@@ -2325,7 +2325,7 @@ const _RywcRv = defineEventHandler(async (event) => {
   return contents;
 });
 
-const _LjdtSQ = defineEventHandler(async (event) => {
+const _LWClZO = defineEventHandler(async (event) => {
   const now = Date.now();
   const contents = await serverQueryContent(event).find();
   await getContentIndex(event);
@@ -2426,7 +2426,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _UtJ6mw = defineEventHandler(async (event) => {
+const _Argwow = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -2455,15 +2455,15 @@ const _UtJ6mw = defineEventHandler(async (event) => {
   return createNav(contents, configs);
 });
 
-const _lazy_1j4n2z = () => import('../renderer.mjs');
+const _lazy_CP5f8S = () => import('../renderer.mjs');
 
 const handlers = [
-  { route: '/api/_content/query/:qid', handler: _RywcRv, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _RywcRv, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.json', handler: _LjdtSQ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _UtJ6mw, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _UtJ6mw, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_1j4n2z, lazy: true, middleware: false, method: undefined }
+  { route: '/api/_content/query/:qid', handler: _Obvh90, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _Obvh90, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.json', handler: _LWClZO, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _Argwow, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _Argwow, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_CP5f8S, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
